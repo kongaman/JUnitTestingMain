@@ -8,7 +8,9 @@ class CalculatorTest {
 
 	@Test
 	void test() {
-		fail("Not yet implemented"); 
+		Calculator calculator = new Calculator();
+		int actualValue = calculator.add(2, 3);
+		assertEquals(5, actualValue);
 	}
 
 }
